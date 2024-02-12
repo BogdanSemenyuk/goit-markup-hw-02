@@ -14,7 +14,6 @@ ul, ol {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -63,17 +62,16 @@ ul, ol {
     color: #fff;
 }
 .hero-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #404bbf;
 }
 /* ========== /Page Hero styles ========== */
@@ -95,10 +93,16 @@ ul, ol {
 
 
 /* ========== Page Section Our team styles ========== */
+.section-team {
+    background-color: #F4F4FD
+}
+.section-team-list {
+    background-color: #FFFFFF
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -126,7 +130,7 @@ ul, ol {
 .title-portfolio {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -149,11 +153,14 @@ ul, ol {
 /* ========================================= /Page Main Styles ========================================= */ 
 
 /* ========================================= Page Footer Styles ========================================= */ 
+.footer {
+    background-color: #2e2f42;
+}
 .logo-part-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
